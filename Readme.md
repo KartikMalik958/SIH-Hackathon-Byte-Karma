@@ -6,11 +6,11 @@ This README provides an overview of the project, including team details, relevan
 
 **Team Name:** Byte Karma
 
-**Team Leader:** [@USERNAME](https://github.com/KartikMalik958)
+**Team Leader:** [@KartikMalik958](https://github.com/KartikMalik958)
 
 **Team Members:**
 
-- **MEMBER_1** - 2022UEI2803 - [@KartikMalik968](https://github.com/KartikMalik958)
+- **MEMBER_1** - 2022UEI2803 - [@KartikMalik958](https://github.com/KartikMalik958)
 - **MEMBER_2** - 2022UEI2825 - [@anshul1954](https://github.com/anshul1954)
 - **MEMBER_3** - 2022UEI2852 - [@riyamehta12](https://github.com/riyamehta12)
 - **MEMBER_4** - 2022UIC3573 - [@a-n-m-o-l-l-l](https://github.com/a-n-m-o-l-l-l)
