@@ -19,7 +19,7 @@ This README provides an overview of the project, including team details, relevan
 
 ## Project Links
 
-- **Internal Presentation:** [Internal Presentation](URL TO PPT UPLOADED TO GITHUB)
+- **Internal Presentation:** [Internal Presentation](https://docs.google.com/presentation/d/1JIP-R-codyzqhOh7pvbDyNe1lt1pkIzf28dLVZgedQo/mobilepresent?slide=id.p)
 - **Final SIH Presentation:** [Final SIH Presentation](URL TO PPT UPLOADED TO GITHUB)
 - **Video Demonstration:** [Watch Video](https://youtu.be/vuaxd0zmjN0)
 - **Live Deployment:** [View Deployment](DEPLOYED LINK IF ANY)
