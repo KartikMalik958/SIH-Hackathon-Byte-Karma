@@ -1,0 +1,117 @@
+\documentclass[12pt]{article}
+
+%\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, margin=0.5in,headheight=77pt,top=3.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{tabu}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx}
+\usepackage{collcell}
+\usepackage{multirow}
+\usepackage[skins]{tcolorbox}
+\usepackage{fontspec}
+    \setmainfont{Lato}
+
+\hypersetup{
+  colorlinks   = true, %Colours links instead of using boxes to indicate links
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = black %Colour for internal links
+  citecolor   = red %Colour for citations
+}
+\newcolumntype{U}{>{\collectcell\MakeUppercase}l<{\endcollectcell}}
+
+\tcbuselibrary{listings,breakable}
+
+
+\newtcolorbox{reportSection}[2][]{%
+  attach boxed title to top left
+  			   = {xshift=10pt, yshift=-8pt},
+  colback      = white!5!white,
+  colframe     = white!75!black,
+  fonttitle    = \bfseries,
+  colbacktitle = white,
+  title        = \textbf{\large{#2}},
+  coltitle	   = black,
+  arc = 0mm,
+  opacityframe = 0.5,
+  boxrule=1pt,
+  boxed title style={%
+    sharp corners, 
+    rounded corners=northwest, 
+    colback=white, 
+    boxrule=0pt,
+    titlerule=0mm},
+  enhanced,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\Large{\textbf{MEDICAL REPORT}} \\
+\normalsize{}} 
+\chead{}
+%\rhead{\includegraphics[scale=0.25]{imageFiles/LogoDesign}}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+%To accommodate new oversized header
+
+
+\begin{document}
+
+%---------------------------------------------------------
+%  Patient Info Table
+%---------------------------------------------------------
+\tabulinesep=5pt
+\taburulecolor{lightgray}
+\noindent \begin{tabu} to \textwidth {|XU||XU|}
+\hline
+Patient Name      & \VAR{name}        & Blood Group      & \VAR{blood_group}              \\ \hline
+Age               & \VAR{age}      & Diet             & \VAR{diet}     \\ \hline
+Gender            & \VAR{gender}       & Exercise         & \VAR{exercise}          \\ \hline
+Email ID          & \VAR{email}       & Sleep Hours      & \VAR{sleep}      \\ \hline
+Insurance Provider& \VAR{insurance}       & Stress Level     & \VAR{stress}  \\ \hline
+\end{tabu}
+
+\vspace{5mm}
+
+%---------------------------------------------------------
+%  SECTION 1 : Symptoms
+%---------------------------------------------------------
+\begin{reportSection}{Symptoms}
+\taburulecolor{lightgray}
+\noindent \begin{tabu} to \textwidth {|X|}
+\hline
+\VAR{symp1}    \\ \hline
+\VAR{symp2}    \\ \hline
+\VAR{symp3}    \\ \hline
+\VAR{symp4}    \\ \hline
+\end{tabu}
+\end{reportSection}
+
+\vspace{5mm}
+
+%---------------------------------------------------------
+%  SECTION 2 : Medical History
+%---------------------------------------------------------
+\begin{reportSection}{Medical History}
+1. Medications:\VAR{medi} \\
+2. Surgeries:\VAR{surgery}
+\end{reportSection}
+
+\vspace{5mm}
+
+%---------------------------------------------------------
+%  SECTION 3 : Prognosis
+%---------------------------------------------------------
+\begin{reportSection}{Prognosis and suggestions}
+Diagnosis:\VAR{diagnosis} \\
+Recommendations:\\
+\VAR{recom1}\\
+\VAR{recom2}\\
+\VAR{recom3}\\
+\VAR{recom4}
+\end{reportSection}
+
+\end{document}
