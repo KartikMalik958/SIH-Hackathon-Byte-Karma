@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf8f7; /* Light teal background similar to the screenshot */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #66c5b8; /* Teal color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #5fb0a2; /* Slightly darker teal for the border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main button {
+    background-color: #66c5b8; /* Teal color matching the header */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main button:hover {
+    background-color: #5fb0a2; /* Darker teal on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #66c5b8; /* Teal footer to match the header */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 5px solid #5fb0a2; /* Matching the header border */
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Tagline Section Styles */
+.tagline {
+    background-color: #fff; /* White background for the tagline sections */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tagline h2 {
+    color: #66c5b8; /* Teal color for headings */
+    margin-bottom: 10px;
+}
+
+.tagline p {
+    color: #555;
+    font-size: 1.1em;
+}

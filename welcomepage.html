@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Portal</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Healthcare Portal</h1>
+        <p>Diagnose your diseases with ease, just tell us your symptoms.</p>
+    </header>
+    
+    <main>
+        <div class="tagline">
+            <h2>Why Choose Our Healthcare Portal?</h2>
+            <p>Our portal provides quick and accurate disease diagnosis based on your symptoms, offering you peace of mind and the guidance you need to seek proper treatment. It's like having a doctor in your pocket.</p>
+        </div>
+        
+        <div class="tagline">
+            <h2>How Can We Help You?</h2>
+            <p>Simply select your symptoms from our extensive list, and our advanced algorithm will analyze your inputs to suggest possible conditions and recommended actions. Stay informed and proactive about your health.</p>
+        </div>
+        
+        <button id="continue-btn">Continue</button>
+    </main>
+    
+    <footer>
+        <p>© 2024 Healthcare Portal | Your Health, Our Priority</p>
+    </footer>
+    
+    <script>
+        document.getElementById('continue-btn').addEventListener('click', () => {
+            window.location.href = 'http://127.0.0.1:5500/sih/sih.html'; // Replace with the actual URL of the external website
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Diagnosis Form</title>
+    <!-- Your css file here -->
+    <link rel="stylesheet" href="sih.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Welcome to Our Healthcare Portal</h1>
+            <p>Your health is our priority. Please provide the following information to help us assist you better.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <form name="submit-to-google-sheet">
+            <div class="section">
+                <h2>Personal Information</h2>
+                <div class="box">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br>
+
+                    <label for="bloodGroup">Blood Group:</label>
+                    <input type="text" id="bloodGroup" name="bloodGroup" required><br>
+
+                    <label for="insuranceProvider">Medical Insurance Provider:</label>
+                    <input type="text" id="insuranceProvider" name="insuranceProvider"><br>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Lifestyle Factors</h2>
+                <div class="box">
+                    <label for="diet">Diet:</label>
+                    <input type="text" id="diet" name="diet"><br>
+
+                    <label for="exercise">Exercise:</label>
+                    <input type="text" id="exercise" name="exercise"><br>
+
+                    <label for="sleep">Sleep (hours per night):</label>
+                    <input type="number" id="sleep" name="sleep"><br>
+
+                    <label for="stress">Stress Level (1-10):</label>
+                    <input type="number" id="stress" name="stress" min="1" max="10"><br>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Medical Condition</h2>
+                <div class="box">
+                    <label for="symptom1">Symptom 1:</label>
+                    <input type="text" id="symptom1" list="symptomsList" name="symptom1" required><br>
+
+                    <label for="symptom2">Symptom 2:</label>
+                    <input type="text" id="symptom2" list="symptomsList" name="symptom2" required><br>
+
+                    <label for="symptom3">Symptom 3:</label>
+                    <input type="text" id="symptom3" list="symptomsList" name="symptom3" required><br>
+
+                    <label for="symptom4">Symptom 4:</label>
+                    <input type="text" id="symptom4" list="symptomsList" name="symptom4" required><br>
+
+
+                    <datalist id="symptomsList">
+                        <option value="itching">
+                        <option value="skin_rash">
+                        <option value="nodal_skin_eruptions">
+                        <option value="dischromic_patches">
+                        <option value="continuous_sneezing">
+                        <option value="shivering">
+                        <option value="chills">
+                        <option value="watering_from_eyes">
+                        <option value="stomach_pain">
+                        <option value="acidity">
+                        <option value="ulcers_on_tongue">
+                        <option value="vomiting">
+                        <option value="cough">
+                        <option value="chest_pain">
+                        <option value="yellowish_skin">
+                        <option value="nausea">
+                        <option value="loss_of_appetite">
+                        <option value="abdominal_pain">
+                        <option value="yellowing_of_eyes">
+                        <option value="burning_micturition">
+                        <option value="spotting_urination">
+                        <option value="passage_of_gases">
+                        <option value="internal_itching">
+                        <option value="indigestion">
+                        <option value="muscle_wasting">
+                        <option value="patches_in_throat">
+                        <option value="high_fever">
+                        <option value="extra_marital_contacts">
+                        <option value="fatigue">
+                        <option value="weight_loss">
+                        <option value="restlessness">
+                        <option value="lethargy">
+                        <option value="irregular_sugar_level">
+                        <option value="blurred_and_distorted_vision">
+                        <option value="obesity">
+                        <option value="excessive_hunger">
+                        <option value="increased_appetite">
+                        <option value="polyuria">
+                        <option value="sunken_eyes">
+                        <option value="dehydration">
+                        <option value="diarrhoea">
+                        <option value="breathlessness">
+                        <option value="family_history">
+                        <option value="mucoid_sputum">
+                        <option value="headache">
+                        <option value="dizziness">
+                        <option value="loss_of_balance">
+                        <option value="lack_of_concentration">
+                        <option value="stiff_neck">
+                        <option value="depression">
+                        <option value="irritability">
+                        <option value="visual_disturbances">
+                        <option value="back_pain">
+                        <option value="weakness_in_limbs">
+                        <option value="neck_pain">
+                        <option value="weakness_of_one_body_side">
+                        <option value="altered_sensorium">
+                        <option value="dark_urine">
+                        <option value="sweating">
+                        <option value="muscle_pain">
+                        <option value="mild_fever">
+                        <option value="swelled_lymph_nodes">
+                        <option value="malaise">
+                        <option value="red_spots_over_body">
+                        <option value="joint_pain">
+                        <option value="pain_behind_the_eyes">
+                        <option value="constipation">
+                        <option value="toxic_look_(typhos)">
+                        <option value="belly_pain">
+                        <option value="yellow_urine">
+                        <option value="receiving_blood_transfusion">
+                        <option value="receiving_unsterile_injections">
+                        <option value="coma">
+                        <option value="stomach_bleeding">
+                        <option value="acute_liver_failure">
+                        <option value="swelling_of_stomach">
+                        <option value="distention_of_abdomen">
+                        <option value="history_of_alcohol_consumption">
+                        <option value="fluid_overload">
+                        <option value="phlegm">
+                        <option value="blood_in_sputum">
+                        <option value="throat_irritation">
+                        <option value="redness_of_eyes">
+                        <option value="sinus_pressure">
+                        <option value="runny_nose">
+                        <option value="congestion">
+                        <option value="loss_of_smell">
+                        <option value="fast_heart_rate">
+                        <option value="rusty_sputum">
+                        <option value="pain_during_bowel_movements">
+                        <option value="pain_in_anal_region">
+                        <option value="bloody_stool">
+                        <option value="irritation_in_anus">
+                        <option value="cramps">
+                        <option value="bruising">
+                        <option value="swollen_legs">
+                        <option value="swollen_blood_vessels">
+                        <option value="prominent_veins_on_calf">
+                        <option value="weight_gain">
+                        <option value="cold_hands_and_feets">
+                        <option value="mood_swings">
+                        <option value="puffy_face_and_eyes">
+                        <option value="enlarged_thyroid">
+                        <option value="brittle_nails">
+                        <option value="swollen_extremeties">
+                        <option value="abnormal_menstruation">
+                        <option value="muscle_weakness">
+                        <option value="anxiety">
+                        <option value="slurred_speech">
+                        <option value="palpitations">
+                        <option value="drying_and_tingling_lips">
+                        <option value="knee_pain">
+                        <option value="hip_joint_pain">
+                        <option value="swelling_joints">
+                        <option value="painful_walking">
+                        <option value="movement_stiffness">
+                        <option value="spinning_movements">
+                        <option value="unsteadiness">
+                        <option value="pus_filled_pimples">
+                        <option value="blackheads">
+                        <option value="scurring">
+                        <option value="bladder_discomfort">
+                        <option value="foul_smell_of_urine">
+                        <option value="continuous_feel_of_urine">
+                        <option value="skin_peeling">
+                        <option value="silver_like_dusting">
+                        <option value="small_dents_in_nails">
+                        <option value="inflammatory_nails">
+                        <option value="blister">
+                        <option value="red_sore_around_nose">
+                        <option value="yellow_crust_ooze">
+                        <option value="NaN">    
+                            
+
+                    </datalist><br>
+
+                    <label for="medications">Previous Medications:</label>
+                    <textarea id="medications" name="medications"></textarea><br>
+
+                    <label for="surgeries">Past Surgeries:</label>
+                    <textarea id="surgeries" name="surgeries"></textarea><br>
+                </div>
+            </div>
+            <input type="submit" name="Submit" style="background-color: green; color: white;">
+        </form>
+        <script>
+            //enter your sheet url here
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxXte5jmMWhB0BJsiEjfqQ9hXxIUbQtkDr5LF2SS9UY6eMcgNZoL0OnZ55mL0CDvRas/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    console.log('Success!', response);
+                    form.reset(); // Clear form data
+                    document.getElementById('result').innerText = "Form submitted successfully! Kindly wait a moment for your report";
+                })
+                .catch(error => {
+                    console.error('Error!', error.message);
+                    document.getElementById('result').innerText = "Form submission failed!";
+                })
+            })
+          </script>
+        <div id="result"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Healthcare Portal | Your health, our priority</p>
+            <p>Contact us at: support@healthcareportal.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
