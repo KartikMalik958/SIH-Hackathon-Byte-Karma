@@ -33,15 +33,15 @@ Our project is designed to streamline the possible diagnosis of medical conditio
 The predicted disease is further analyzed by an AI/ML model leveraging Gemini API, which provides personalized lifestyle recommendations aimed at enhancing the patient's overall well-being. A comprehensive report, including the patient's personal information, the predicted diagnosis, and the suggested lifestyle changes, is generated using an integrated Overleaf and Google Collab system and downloaded automatically.
 
 ## Technologies Used
-Python(Machine Learning)
-Html
-Css
-Latex Overleaf
+Python(Machine Learning) <br>
+Html<br>
+Css<br>
+Latex Overleaf<br>
 
 ## API's Used
-Gemini API
-Google Drive API
-Google Sheets API
+Gemini API<br>
+Google Drive API<br>
+Google Sheets API<br>
 
 # SIH-Hackathon-Byte-Karma
 #Steps to run this project:<br>
