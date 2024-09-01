@@ -1,7 +1,7 @@
 # SIH-Hackathon-Byte-Karma
-#Steps to run this project:
-1.Download all mentioned files.
-2.Create a '.json' key using google cloud services and enable google sheets and drive api.
+#Steps to run this project:<br>
+1.Download all mentioned files.<br>
+2.Create a '.json' key using google cloud services and enable google sheets and drive api.<br>
 3.Open the sih.html,sih.css,welcome.html,welcome.css in your VS code. 
 4.Input your spreadsheet in the sih.html file if needed.
 5.Open google collab and connect to a runtime. Add gemini api key if not already added. 
