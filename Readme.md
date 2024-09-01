@@ -10,12 +10,12 @@ This README provides an overview of the project, including team details, relevan
 
 **Team Members:**
 
-- **MEMBER_1** - 2022UEI2803 - [@USERNAME](https://github.com/KartikMalik958)
-- **MEMBER_2** - 2022UEI2825 - [@USERNAME](https://github.com/anshul1954)
-- **MEMBER_3** - 2022UEI2852 - [@USERNAME](https://github.com/riyamehta12)
-- **MEMBER_4** - 2022UIC3573 - [@USERNAME](https://github.com/a-n-m-o-l-l-l)
-- **MEMBER_5** - 2022UEC2640 - [@USERNAME](https://github.com/AbheenavCodes)
-- **MEMBER_6** - 2022UEI2836 - [@USERNAME](https://github.com/aryannarang12)
+- **MEMBER_1** - 2022UEI2803 - [@KartikMalik968](https://github.com/KartikMalik958)
+- **MEMBER_2** - 2022UEI2825 - [@anshul1954](https://github.com/anshul1954)
+- **MEMBER_3** - 2022UEI2852 - [@riyamehta12](https://github.com/riyamehta12)
+- **MEMBER_4** - 2022UIC3573 - [@a-n-m-o-l-l-l](https://github.com/a-n-m-o-l-l-l)
+- **MEMBER_5** - 2022UEC2640 - [@AbheenavCodes](https://github.com/AbheenavCodes)
+- **MEMBER_6** - 2022UEI2836 - [@aryannarang12](https://github.com/aryannarang12)
 
 ## Project Links
 
@@ -42,4 +42,27 @@ Latex Overleaf
 Gemini API
 Google Drive API
 Google Sheets API
+
+# SIH-Hackathon-Byte-Karma
+#Steps to run this project:<br>
+1.Download all mentioned files.<br>
+2.Create a '.json' key using google cloud services and enable google sheets and drive api.<br>
+3.Open the sih.html,sih.css,welcome.html,welcome.css in your VS code. <br>
+4.Input your spreadsheet in the sih.html file if needed.<br>
+5.Open google collab and connect to a runtime. Add gemini api key if not already added. <br>
+6.Upload dataset.csv, sih.tex and your '.json' key in collab.<br>
+7.Run the code and then proceed to the next step.<br>
+8.Open welcome.html with live server.(If it does not connect to the next page open sih.html with live server first and copy the url and paste in the mentioned space in welcome.html)<br>
+9.Enter your data in the website.<br>
+10.Wait a moment for the result and it will be downloaded on your pc <br>
+
+
+
+
+#Links
+Our google sheet: https://docs.google.com/spreadsheets/d/1uyFt4cubiytGD4cN_t8ahabR4fXoZtCdc0sEsmMiy8s/edit?gid=0#gid=0  <br>
+Our google collab file(viewer access): https://colab.research.google.com/drive/12Dq4y599q3G7Nymfu0VMHB1s9FQJoVds?usp=sharing
+
+
+
 
